@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const REST_API_BASE_URL = 'http://localhost:8080/api/employees';
+const REST_API_BASE_URL = "employee-management-system-production-e003.up.railway.app";
 
 export const listEmployees = () =>{
     return axios.get(REST_API_BASE_URL);
